@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Dynamitey/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Dynamitey.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Dynamitey.dll": {}
+        }
+      },
+      "FSharp.Core/3.1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Core.dll": {}
+        }
+      },
+      "FSharp.Data/2.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net40/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Data.dll": {}
+        }
+      },
+      "FSharp.Interop.Dynamic/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Dynamitey": "1.0.2",
+          "FSharp.Core": "3.1.2.1"
+        },
+        "compile": {
+          "lib/portable-net45+sl50+win/FSharp.Interop.Dynamic.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+sl50+win/FSharp.Interop.Dynamic.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dynamitey/1.0.2": {
+      "sha512": "9djtY/cQ4lGpS9+qw5PS+t4MYGyyNG5Fn4Sz99CJAMtJ1ulseynTayRRojQ7DRX1gcV+7nGJvsSti5isR0UYog==",
+      "type": "package",
+      "path": "dynamitey/1.0.2",
+      "files": [
+        "dynamitey.1.0.2.nupkg.sha512",
+        "dynamitey.nuspec",
+        "lib/net40/Dynamitey.XML",
+        "lib/net40/Dynamitey.dll",
+        "lib/net40/Dynamitey.pdb",
+        "lib/portable-win+net45+sl40+wp80/Dynamitey.XML",
+        "lib/portable-win+net45+sl40+wp80/Dynamitey.dll"
+      ]
+    },
+    "FSharp.Core/3.1.2.1": {
+      "sha512": "5xdd0n/yvMdPLQrnxTlu70xAm1KkG0ugh4zZpX7pK1FCTtPCB1A8R1gnD7t6EeRMzuCUh4n62cfVvFxayy3fpQ==",
+      "type": "package",
+      "path": "fsharp.core/3.1.2.1",
+      "files": [
+        "fsharp.core.3.1.2.1.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/MonoAndroid/FSharp.Core.dll",
+        "lib/MonoAndroid/FSharp.Core.optdata",
+        "lib/MonoAndroid/FSharp.Core.sigdata",
+        "lib/MonoAndroid/FSharp.Core.xml",
+        "lib/MonoTouch/FSharp.Core.dll",
+        "lib/MonoTouch/FSharp.Core.optdata",
+        "lib/MonoTouch/FSharp.Core.sigdata",
+        "lib/MonoTouch/FSharp.Core.xml",
+        "lib/net40/FSharp.Core.dll",
+        "lib/net40/FSharp.Core.optdata",
+        "lib/net40/FSharp.Core.sigdata",
+        "lib/net40/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.optdata",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.sigdata",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/FSharp.Core.xml",
+        "lib/portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.dll",
+        "lib/portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.optdata",
+        "lib/portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.sigdata",
+        "lib/portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1/FSharp.Core.xml"
+      ]
+    },
+    "FSharp.Data/2.3.2": {
+      "sha512": "WfJwzvgyyGFydvxGy6NF4L7sl92uNKgZF8vZk+pMU4QouK8aFXqGhc9q82vli5g8US627N6/7gQI/tFkAdtymQ==",
+      "type": "package",
+      "path": "fsharp.data/2.3.2",
+      "files": [
+        "fsharp.data.2.3.2.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net40/FSharp.Data.DesignTime.dll",
+        "lib/net40/FSharp.Data.DesignTime.pdb",
+        "lib/net40/FSharp.Data.DesignTime.xml",
+        "lib/net40/FSharp.Data.dll",
+        "lib/net40/FSharp.Data.pdb",
+        "lib/net40/FSharp.Data.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.xml",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.dll",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.pdb",
+        "lib/portable-net45+sl50+netcore45/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq"
+      ]
+    },
+    "FSharp.Interop.Dynamic/3.0.0": {
+      "sha512": "NsH68VmEaBe4QXBkMip0nkJ0SamSHee2SeCSd6egxwlsOni5KFuB8wCpBFXhenwqMUz7uDFFxeZr9R3Wcic1OQ==",
+      "type": "package",
+      "path": "fsharp.interop.dynamic/3.0.0",
+      "files": [
+        "fsharp.interop.dynamic.3.0.0.nupkg.sha512",
+        "fsharp.interop.dynamic.nuspec",
+        "lib/portable-net45+sl50+win/FSharp.Interop.Dynamic.dll"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Dynamitey >= 1.0.2",
+      "FSharp.Data >= 2.3.2",
+      "FSharp.Interop.Dynamic >= 3.0.0",
+      "Newtonsoft.Json >= 9.0.1"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
